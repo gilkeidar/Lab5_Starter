@@ -39,7 +39,7 @@ function init() {
         }
     });
 
-    playButton.addEventListener("click", e => {
+    playButton.addEventListener("click", () => {
         if (select.value != "select")
         {
             audio.play();
